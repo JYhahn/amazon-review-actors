@@ -1,1 +1,8 @@
-{ "name": "actor-star-rating", "version": "1.0" }
+{
+  "name": "actor-star-rating",
+  "version": "1.0",
+  "description": "Extracts star distribution and average rating from Amazon product review pages.",
+  "main": "main.js",
+  "env": {},
+  "actorSpecification": 1
+}
