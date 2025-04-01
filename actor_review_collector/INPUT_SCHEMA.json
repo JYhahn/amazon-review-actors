@@ -1,0 +1,1 @@
+{ "title": "ASIN Input", "type": "object", "properties": { "asin": { "type": "string" } } }
