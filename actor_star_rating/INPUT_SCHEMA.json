@@ -1,1 +1,14 @@
-{ "title": "ASIN Input", "type": "object", "properties": { "asin": { "type": "string" } } }
+{
+  "title": "ASIN Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "asin": {
+      "title": "ASIN",
+      "type": "string",
+      "description": "Amazon product ASIN (e.g., B0BL28XMQN)",
+      "editor": "textfield"
+    }
+  },
+  "required": ["asin"]
+}
